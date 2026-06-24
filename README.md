@@ -25,6 +25,11 @@ this project will focus on:
 - local storage
 - GitHub
 
+## Design Inspo
+- this project is inspired by cafe aesthetics, matcha culture, color schemes, and anything else I think fits the theme of my webapp!
+
+Pinterest board:
+
 ## Screenshots 
 
 ## Future Improvements

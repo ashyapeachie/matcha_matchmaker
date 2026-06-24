@@ -1,4 +1,20 @@
-/* root colors */
+root {
+    --matcha-green: #A8C686;
+    --sage-green: #D8E7C5;
+    --olive-green: #6F7741;
+
+    --cream: #FFF8F0;
+    --warm-white: #F8F5EF;
+
+    --blush-pink: #F7C6D9;
+    --rose-pink: #DDA5B6;
+    --brown: #6B4F3B;
+} 
+/* Background      → Cream
+Primary Button  → Matcha Green
+Cards           → Warm White
+Accents         → Blush Pink
+Text            → Brown */
 
 body {
     font-family: Arial, sans-serif;
