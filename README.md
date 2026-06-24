@@ -14,7 +14,7 @@ this project will focus on:
 - version control
 - project planning and documentation
 
-## Features
+## ⭐ Features
 - matcha tracking brand collection
 - daily matcha diary
 
@@ -25,7 +25,7 @@ this project will focus on:
 - local storage
 - GitHub
 
-## Design Inspo
+## 🍃 Design Inspo
 - this project is inspired by cafe aesthetics, matcha culture, color schemes, and anything else I think fits the theme of my webapp!
 
 Pinterest board:
