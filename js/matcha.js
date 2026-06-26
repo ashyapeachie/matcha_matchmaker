@@ -9,7 +9,7 @@ class Matcha {
     ){
         this.brand = brand;
         this.grade = grade;
-        this.rathing = rating;
+        this.rating = rating;
         this.price = price;
         this.notes = notes;
         this.favorites = favorites;

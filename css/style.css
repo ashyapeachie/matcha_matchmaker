@@ -1,4 +1,4 @@
-root {
+:root {
     --matcha-green: #A8C686;
     --sage-green: #D8E7C5;
     --olive-green: #6F7741;
@@ -56,7 +56,7 @@ main {
    padding: 2rem; 
 }
 
-.card-container {
+#matcha-container {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;

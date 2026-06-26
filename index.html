@@ -32,7 +32,7 @@
                     Track your favorite matcha powders, compare brands, and document your daily matcha journey.
                 </p>
 
-                <button>
+                <button id="start-btn">
                     Start Exploring 🍵
                 </button>
             </section>
@@ -40,19 +40,34 @@
             <section id="collection">
                 <h2>Matcha Collection</h2>
 
-                <div id="matcha-container">
-                    <div class="matcha-card">
-                        <h3>Sample Matcha</h3>
-                        <p>Ceremonial Grade</p>
-                        <p>Rating: ⭐⭐⭐⭐⭐</p>
-                    </div>
+                <form id="match-form">
+                    <input
+                        type="text"
+                        id="brand"
+                        placeholder="Brand Name"
+                        required>
+                    
+                    <input 
+                        type="text"
+                        id="grade"
+                        placeholder="Ceremonial or Culinary"
+                        required>
 
-                    <div class="matcha-card">
-                        <h3>Matcha Moon</h3>
-                        <p>Culinary Grade</p>
-                        <p>Rating: ⭐⭐⭐⭐</p>
-                    </div>
-                </div>
+                    <input
+                        type="number"
+                        id="rating"
+                        min="1"
+                        max="5"
+                        placeholder="Rating"
+                        required>
+
+                    <button type="submit">
+                        Add Matcha 🍵
+                    </button>
+                </form>
+
+                <div id="matcha-container"></div>
+
             </section>
 
             <section id="journal">
@@ -70,6 +85,7 @@
             <p>Made with 🍵 by Ashya</p>
         </footer>
 
+        <script src="js/matcha.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
