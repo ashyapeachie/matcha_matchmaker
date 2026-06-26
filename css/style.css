@@ -64,12 +64,12 @@ main {
  
 .matcha-card, .journal-card {
     background-color: white;
-    padding:
-    border-radius:
-    margin-top: 
-    bow-shadow: 
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    /* bow-shadow: black; */
 }
-*
+
 
 .hero {
     text-align: center;
@@ -97,4 +97,15 @@ main {
     color: white;
     font-size: 1rem;
     cursor: pointer;
+}
+
+section {
+    padding: 2rem 3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #D8E7C5;
+    margin-top: 3rem;
 }
