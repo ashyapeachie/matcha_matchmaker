@@ -24,12 +24,16 @@ body {
 
 header {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: #A8C686
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
 }
 
 p {
