@@ -25,9 +25,7 @@ body {
 header {
     text-align: center;
     padding: 1.5rem;
-    background-color: #A8C686
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 1rem;
+    background-color: #A8C686;
 }
 
 h1 {
@@ -58,22 +56,28 @@ main {
    padding: 2rem; 
 }
 
-/* 
+.card-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+ 
 .matcha-card, .journal-card {
-    background-color:
+    background-color: white;
     padding:
     border-radius:
     margin-top: 
     bow-shadow: 
 }
-*/
+*
 
 .hero {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
 }
 
 .hero h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
