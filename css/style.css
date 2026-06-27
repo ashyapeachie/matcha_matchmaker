@@ -67,6 +67,24 @@ main {
     color:#6B4F3B;
 }
 
+#matcha-form button {
+    background: #A8C686;
+    color:white;
+    border:none;
+    border-radius:999px;
+    padding:14px;
+    width:220px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.2s;
+}
+
+#matcha-form button:hover{
+    transform:translateY(-2px);
+    background: #6F7741;
+}
+
 #matcha-container {
     display: flex;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -118,8 +136,12 @@ main {
 }
 
 .hero {
-    text-align: center;
-    padding: 5rem 2rem;
+    background: linear-gradient(
+        to bottom,
+        #FFF8F0,
+        #FDF5EB
+    );
+    padding: 6rem 2rem;
 }
 
 .hero h2 {
@@ -152,6 +174,24 @@ main {
     color: white;
     font-size: 1rem;
     cursor: pointer;
+}
+
+#collection {
+    background: linear-gradient(
+        to bottom,
+        #EEF6E7,
+        #F8F5EF
+    );
+    padding: 4rem 3rem;
+}
+
+#journal{
+    background: linear-gradient(
+        to bottom,
+        #FFEAF1,
+        #FFF8F0
+    );
+    padding:4rem 3rem;
 }
 
 #matcha-form button{
