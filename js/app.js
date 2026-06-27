@@ -30,15 +30,28 @@ function displayMatcha() {
 
     matchaCollection.forEach(matcha => {
         container.innerHTML += `
-            <div class="matcha-card">
-
-                <h3>${matcha.brand}</h3>
-
-                <p>${matcha.grade}</p>
-
-                <p>⭐ ${matcha.rating}/5</p>
-
+        <div class="matcha-card">
+            <div class="card-header">
+                <h3> ${matcha.brand}</h3>
+                ${matcha.favorite ? "❤️" : ""}
             </div>
+
+            <span class="grade-badge">
+                ${matcha.grade}
+            </span>
+
+            <p class="rating">
+                ${"⭐".repeat(matcha.rating)}
+            </p>
+
+            <p>
+                💵 $${matcha.price}
+            </p>
+
+            <p>
+                🌿 ${matcha.notes}
+            </p>
+        </div>
         `;
 
     });
