@@ -28,10 +28,17 @@ this project will focus on:
 ## 🍃 Design Inspo
 - this project is inspired by cafe aesthetics, matcha culture, color schemes, and anything else I think fits the theme of my webapp!
 
-Pinterest board:
+Pinterest board: https://pin.it/3SJAOR57w
 
 ## Screenshots 
 
 ## Future Improvements
+- user accounts & cloud storage
+- matcha wishlist feature
+- matcha recommendation system
+- data visualization
+- search & filtering
 
 ## Author
+Ashya H.
+Computer Infomation Technology Student- Programming Cincentration
