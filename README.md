@@ -1,5 +1,6 @@
 # 🍵 matcha_matchmaker
 a cozy web application for matcha lovers to discover, compare, and journal their favorite matcha powders
+https://ashyapeachie.github.io/matcha_matchmaker/
 
 ## Overview
 Matcha Matchmaker is a frontend web application that allows users to tracker and compare different matcha brands while keeping a daily matcha journal. users can rate matcha powders, save flavor notes (and good foods pairings), track moods and energy levelsm and build a personalized matcha collection. 
